@@ -14,11 +14,4 @@ Rails.application.routes.draw do
   resources :technicians
   resources :testimonials
   resources :contacts
-  
-  get 'about', to: 'application#about'
-  get 'services', to: 'application#services'
-  get 'booking', to: 'application#booking'
-  get 'technicians', to: 'application#technicians'
-  get 'testimonial', to: 'application#testimonial'
-  get 'contact', to: 'application#contact'
 end
